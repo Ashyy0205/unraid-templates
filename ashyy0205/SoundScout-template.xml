@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/Ashyy0205/SoundScout/issues</Support>
   <Project>https://github.com/Ashyy0205/SoundScout</Project>
-  <TemplateURL>https://raw.githubusercontent.com/Ashyy0205/SoundScout/main/SoundScout-template.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Ashyy0205/unraid-templates/main/ashyy0205/SoundScout-template.xml</TemplateURL>
   <Overview>
     SoundScout is a self-hosted music discovery and acquisition app for Plex.
     It uses Last.fm listening history to build personalised recommendations, lets users import Spotify playlists and albums, downloads missing music into your library, and keeps Plex playlists in sync from a Web UI.
@@ -84,11 +84,6 @@
     <Variable>
       <Value>1</Value>
       <Name>WEBUI_REQUIRE_PLEX_LOGIN</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>true</Value>
-      <Name>ENABLE_WEBUI</Name>
       <Mode/>
     </Variable>
   </Environment>
